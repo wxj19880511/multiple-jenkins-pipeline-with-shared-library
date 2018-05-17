@@ -9,7 +9,5 @@ node('master') {
 
 
     echo " This is just a demo"
-    println(qt)
-
-
+    echo this
 }
