@@ -1,3 +1,7 @@
+library("qt@$BRANCH_NAME")
+
+
 node('master') {
-    sh "ls && pwd"
+    sh "test shared library ..."
+    utils.pwd()
 }
