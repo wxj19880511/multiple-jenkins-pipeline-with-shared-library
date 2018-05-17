@@ -1,7 +1,7 @@
 package qt
 
 def pwd() {
-    sh "pwd && ls"
+    echo "may i ask one question ?"
 }
 
 return this;
