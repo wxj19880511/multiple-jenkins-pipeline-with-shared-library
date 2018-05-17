@@ -11,7 +11,5 @@ node('master') {
 
     pwd()
 
-    f = new qt.utils()
 
-    f.pwd()
 }
