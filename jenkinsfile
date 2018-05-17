@@ -1,7 +1,7 @@
 
 
 def t = library "qt@$BRANCH_NAME" 
-println(t.methods)
+println(t.toString)
 
 node('master') {
 
