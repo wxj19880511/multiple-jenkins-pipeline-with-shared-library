@@ -1,9 +1,7 @@
 
 
-library "qt@$BRANCH_NAME" 
-
-improt qt.*
-
+def t = library "qt@$BRANCH_NAME" 
+println(t.getProperties())
 
 node('master') {
 
