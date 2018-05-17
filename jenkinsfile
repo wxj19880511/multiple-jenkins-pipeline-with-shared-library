@@ -9,6 +9,8 @@ node('master') {
 
     println(utils)
 
+    pwd()
+
     f = new qt.utils()
 
     f.pwd()
