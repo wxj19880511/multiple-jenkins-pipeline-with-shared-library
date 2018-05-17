@@ -8,8 +8,10 @@ node('master') {
 
     echo " This is just a demo"
 
+    
+    pwd()
+
     println(qt.utils)
 
-    pwd()
 
 }
