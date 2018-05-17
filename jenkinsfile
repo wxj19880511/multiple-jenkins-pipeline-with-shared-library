@@ -1,6 +1,6 @@
 
 def lib = library "qt@$BRANCH_NAME" 
-println(lib)
+println(lib.library)
 
 
 node('master') {
