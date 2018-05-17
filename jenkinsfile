@@ -9,7 +9,7 @@ node('master') {
     echo " This is just a demo"
 
     
-    pwd()
+    qt.utils.pwd()
 
     println(qt.utils)
 
