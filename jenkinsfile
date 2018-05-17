@@ -10,10 +10,8 @@ node('master') {
 
     echo " This is just a demo"
 
-    
-    lib.qt.pwd()
-
-    println(qt.utils)
+    x = new qt.utils()
+    x.pwd()
 
 
 }
