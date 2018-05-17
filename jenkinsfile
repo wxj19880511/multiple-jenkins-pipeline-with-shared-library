@@ -1,6 +1,7 @@
 
 def lib = library "qt@$BRANCH_NAME" 
 println(lib.library)
+println(lib.srcUrl)
 echo "-------------------"
 
 
