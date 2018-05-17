@@ -1,7 +1,10 @@
-library("qt@$BRANCH_NAME")
+//library("qt@$BRANCH_NAME")
+
+library identifier: 'kevin', retriever: modernSCM(github(credentialsId: 'github', id: '750707bc-c9e0-4f2a-b43c-c1de43be377d', repoOwner: 'wxj19880511', repository: 'multiple-jenkins-pipeline-with-shared-library', traits: [[$class: 'org.jenkinsci.plugins.github_branch_source.BranchDiscoveryTrait', strategyId: 1], [$class: 'org.jenkinsci.plugins.github_branch_source.OriginPullRequestDiscoveryTrait', strategyId: 1], [$class: 'org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait', strategyId: 1, trust: [$class: 'TrustContributors']]]))
+
 
 
 node('master') {
     sh "test shared library ..."
-    utils.pwd()
+    qt.utils.pwd()
 }
