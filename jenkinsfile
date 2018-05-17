@@ -1,6 +1,6 @@
 library("qt@$BRANCH_NAME") 
 
-import qt.utils.Utils
+import qt.utils
 
 node('master') {
 
