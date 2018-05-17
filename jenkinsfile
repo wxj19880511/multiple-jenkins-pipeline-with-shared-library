@@ -1,4 +1,4 @@
-@Library("qt@$BRANCH_NAME") _
+library("qt@$BRANCH_NAME") _
 
 
 node('master') {
