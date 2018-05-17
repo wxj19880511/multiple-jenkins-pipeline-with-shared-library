@@ -9,6 +9,8 @@ node('master') {
 
     println(this)
 
+    println(qt)
+
     echo " This is just a demo"
    
 
