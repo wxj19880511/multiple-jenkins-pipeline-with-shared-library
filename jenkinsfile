@@ -9,9 +9,7 @@ node('master') {
 
 
     echo " This is just a demo"
-
-    x = new qt.utils()
-    x.pwd()
+    println(qt)
 
 
 }
