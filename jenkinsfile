@@ -1,6 +1,9 @@
 
 library("qt@$BRANCH_NAME")
 
+
+println System.properties["java.library.path"]
+
 import foo.bar.Test
 
 
