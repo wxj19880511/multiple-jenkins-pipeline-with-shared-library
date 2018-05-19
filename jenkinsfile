@@ -1,4 +1,6 @@
-@Library('qt') import foo.bar.Utilities.*
+@library('qt@BRANCH_NAME') _
+
+import foo.bar.Utilities.*
 
 node {
 
