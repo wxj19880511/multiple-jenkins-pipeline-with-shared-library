@@ -1,5 +1,6 @@
 @Library('qt') import foo.bar.Utilities
 def utils = new Utilities(this)
+println(utils)
 node {
   utils.pwd()ß
 
