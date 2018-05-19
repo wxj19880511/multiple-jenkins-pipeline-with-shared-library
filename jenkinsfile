@@ -1,5 +1,5 @@
 
-@Library("qt@$BRANCH_NAME")
+library("qt@$BRANCH_NAME")
 
 import foo.bar.Test
 
