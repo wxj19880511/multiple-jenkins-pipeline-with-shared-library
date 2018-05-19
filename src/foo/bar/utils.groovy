@@ -1,10 +1,8 @@
-package qt
+package qt.foo
 
-class Utils {
-   static def pwd() {
+class Test {
+    def pwd() {
         sh "env"
         echo "may i ask one question ?"
     }
 }
-
-return this;
