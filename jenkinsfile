@@ -2,7 +2,9 @@
 def utils = new Utilities(this)
 println(utils)
 node {
-  utils.pwd()ß
+
+  sh "env"
+  utils.pwd()
 
   archieve include: "*"
 }
