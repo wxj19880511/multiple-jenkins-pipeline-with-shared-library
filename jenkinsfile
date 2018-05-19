@@ -3,6 +3,6 @@
 node {
 
   sh "env"
-  archiveArtifacts artifacts: '*', 
-  mvn this, 'clean package'
+  archiveArtifacts artifacts: '*'
+  mvn(this, 'clean package')
 }
