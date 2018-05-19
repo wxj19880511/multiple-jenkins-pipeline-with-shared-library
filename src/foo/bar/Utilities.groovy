@@ -10,3 +10,5 @@ class Utilities implements Serializable {
     script.sh "pwd"
   }
 }
+
+return this;
