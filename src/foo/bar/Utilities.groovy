@@ -6,7 +6,7 @@ class Utilities implements Serializable {
     steps.sh "${steps.tool 'Maven'}/bin/mvn -o ${args}"
   }
 
-  def pwd() {
+  def pwd() {å
     script.sh "pwd"
   }
 }

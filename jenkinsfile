@@ -1,7 +1,7 @@
 @Library('qt') import foo.bar.Utilities
 def utils = new Utilities(this)
 node {
-  utils.pwd
+  utils.pwd()ß
 
   archieve include: "*"
 }
