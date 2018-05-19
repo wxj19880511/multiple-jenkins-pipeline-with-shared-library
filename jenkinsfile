@@ -1,11 +1,14 @@
 
-@Library "qt@$BRANCH_NAME" 
+@Library("qt@$BRANCH_NAME")
+
+import foo.bar.Test
 
 
 
 node('master') {
 
-  
+    def x = new Test()
+    x.pwd()
     echo " This is just a demo"
    
 
