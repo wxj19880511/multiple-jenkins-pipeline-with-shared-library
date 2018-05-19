@@ -1,5 +1,5 @@
 
-library("qt@$BRANCH_NAME")
+@Library("qt")
 
 
 println System.properties["java.library.path"]
