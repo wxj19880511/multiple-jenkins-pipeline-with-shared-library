@@ -2,7 +2,7 @@
 @Library("qt")
 
 
-println System.properties["java.library.path"]
+println(System.properties["java.library.path"])
 
 import foo.bar.Test
 
