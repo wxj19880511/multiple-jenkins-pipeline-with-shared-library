@@ -1,10 +1,7 @@
-@Library('qt') import foo.bar.Utilities
-def utils = new Utilities(this)
-println(utils)
+@Library('qt') import foo.bar.Utilities.*
+)
 node {
 
   sh "env"
-  utils.pwd
-
-  archieve include: "*"
+  mvn this, 'clean package'
 }
