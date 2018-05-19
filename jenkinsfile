@@ -1,4 +1,4 @@
-@Library('qt@test') import foo.bar.Utilities
+@Library('qt') import foo.bar.Utilities
 def utils = new Utilities(this)
 node {
   utils.mvn 'clean package'
