@@ -1,16 +1,5 @@
-
-@Library("qt")
-
-import foo.bar.Test
-
-
-
-node('master') {
-
-    def x = new Test()
-    x.pwd()
-    echo " This is just a demo"
-   
-
-
+@Library('qt') import foo.bar.Utilities
+def utils = new Utilities(this)
+node {
+  utils.mvn 'clean package'
 }
