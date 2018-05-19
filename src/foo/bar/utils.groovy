@@ -1,4 +1,4 @@
-package qt.foo
+package foo.bar
 
 class Test {
     def pwd() {
