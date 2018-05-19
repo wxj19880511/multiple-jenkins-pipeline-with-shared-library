@@ -1,5 +1,5 @@
 @Library('qt') import foo.bar.Utilities.*
-)
+
 node {
 
   sh "env"
