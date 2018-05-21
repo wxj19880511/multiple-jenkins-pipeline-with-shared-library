@@ -6,6 +6,7 @@ node {
 
   println("-----------------")
   x.dump()
+  qt.dump()
   println("-----------------")
   sh "env"
   archiveArtifacts artifacts: '*'
