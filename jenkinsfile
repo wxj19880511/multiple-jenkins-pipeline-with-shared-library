@@ -4,7 +4,9 @@ x = library("qt@$BRANCH_NAME")
 
 node {
 
+  println("-----------------")
   x.dump()
+  println("-----------------")
   sh "env"
   archiveArtifacts artifacts: '*'
   mvn(this, 'clean package')
