@@ -1,9 +1,10 @@
-@library('qt@BRANCH_NAME') _
+def x = lib('qt@BRANCH_NAME')
 
-import foo.bar.Utilities.*
+
 
 node {
 
+  x.dump()
   sh "env"
   archiveArtifacts artifacts: '*'
   mvn(this, 'clean package')
