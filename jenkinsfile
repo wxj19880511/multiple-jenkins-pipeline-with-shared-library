@@ -1,9 +1,8 @@
-x = library("qt@$BRANCH_NAME")
+library("qt@$BRANCH_NAME")
 
 import qt
 
 node {
-
   println("-----------------")
   x.dump()
   qt.dump()
