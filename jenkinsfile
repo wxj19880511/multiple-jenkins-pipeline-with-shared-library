@@ -1,4 +1,4 @@
-def x = lib('qt@BRANCH_NAME')
+x = library('qt@BRANCH_NAME')
 
 
 
