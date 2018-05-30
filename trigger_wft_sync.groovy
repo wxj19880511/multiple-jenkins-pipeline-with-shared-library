@@ -1,4 +1,4 @@
-#!groovy
+#!/usr/local/bin/groovy
 
 "echo ${stream_version}-${branch}".execute()
 "/usr/local/bin/wget -nc $JENKINS_URL:8080/jnlpJars/jenkins-cli.jar".execute()
