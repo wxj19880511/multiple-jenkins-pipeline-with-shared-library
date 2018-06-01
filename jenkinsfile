@@ -2,7 +2,7 @@
 def lib = library "qt@$BRANCH_NAME"
 // import foo.bar.Utilities
 
-println lib.foo.bar.getProperties().toString()
+println lib.getProperties().toString()
 
 // def utils = new Utilities(this)
 node {
