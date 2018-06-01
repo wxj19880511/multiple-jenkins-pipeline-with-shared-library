@@ -4,9 +4,7 @@ def lib = library "qt@$BRANCH_NAME"
 
 println(lib)
 println(lib.foo.getProperty('pwd'))
-
-println lib.foo.bar.toString()
-
+println lib.foo.bar.utils()
 println lib.newInstance()
 println lib.invokeMethod('pwd')
 
