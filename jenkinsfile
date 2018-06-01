@@ -1,6 +1,9 @@
 
-library "qt@$BRANCH_NAME"
+def lib = library "qt@$BRANCH_NAME"
 // import foo.bar.Utilities
+
+println(lib)
+println(lib.foo.bar)
 
 // def utils = new Utilities(this)
 node {
