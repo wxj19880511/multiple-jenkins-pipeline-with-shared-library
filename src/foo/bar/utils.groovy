@@ -7,6 +7,6 @@ class Utilities implements Serializable {
   }
 }
 
-def pwd() {
+static def pwd() {
   sh "pwd"
 }
