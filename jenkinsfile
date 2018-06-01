@@ -3,7 +3,7 @@ def lib = library "qt@$BRANCH_NAME"
 // import foo.bar.Utilities
 
 println(lib)
-println(lib.foo)
+println(lib.foo.getProperty('pwd'))
 
 println lib.foo.bar.toString()
 // def utils = new Utilities(this)
