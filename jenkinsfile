@@ -4,7 +4,7 @@ def lib = library "qt@$BRANCH_NAME"
 
 println(lib)
 println(lib.foo.bar)
-def x  = new lib.foo.bar.utils()
+def x  = lib.foo.bar.utils()
 x.pwd()
  lib.foo.bar.utils.properties.each { println it.name }
 
