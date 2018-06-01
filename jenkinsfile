@@ -1,5 +1,5 @@
 
-library identifier: '$BRANCH_NAME', retriever: modernSCM(github(credentialsId: 'github', id: '0dd4971f-c7ea-4f36-bcf5-349882840833', repoOwner: 'wxj19880511', repository: 'adminset', traits: [[$class: 'org.jenkinsci.plugins.github_branch_source.BranchDiscoveryTrait', strategyId: 3], [$class: 'org.jenkinsci.plugins.github_branch_source.OriginPullRequestDiscoveryTrait', strategyId: 1], [$class: 'org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait', strategyId: 1, trust: [$class: 'TrustContributors']], [$class: 'org.jenkinsci.plugins.github_branch_source.TagDiscoveryTrait'], headWildcardFilter(excludes: '', includes: 'test master develop')]))
+library identifier: 'qt@$BRANCH_NAME', retriever: modernSCM(github(credentialsId: 'github', id: '0dd4971f-c7ea-4f36-bcf5-349882840833', repoOwner: 'wxj19880511', repository: 'adminset', traits: [[$class: 'org.jenkinsci.plugins.github_branch_source.BranchDiscoveryTrait', strategyId: 3], [$class: 'org.jenkinsci.plugins.github_branch_source.OriginPullRequestDiscoveryTrait', strategyId: 1], [$class: 'org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait', strategyId: 1, trust: [$class: 'TrustContributors']], [$class: 'org.jenkinsci.plugins.github_branch_source.TagDiscoveryTrait'], headWildcardFilter(excludes: '', includes: 'test master develop')]))
 
 // import foo.bar.Utilities
 
