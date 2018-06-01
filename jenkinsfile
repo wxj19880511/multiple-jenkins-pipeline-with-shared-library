@@ -5,7 +5,7 @@ def lib = library "qt@$BRANCH_NAME"
 println(lib)
 println(lib.foo)
 
-println lib.inspect()
+println lib.foo.bar.toString()
 // def utils = new Utilities(this)
 node {
   utils.mvn 'clean package'
