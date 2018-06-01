@@ -7,8 +7,7 @@ println(lib.foo.getProperty('pwd'))
 
 println lib.foo.bar.toString()
 
-println lib.toString()
-
+println lib.getClass()
 println lib.invokeMethod('pwd')
 
 node {
