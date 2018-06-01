@@ -7,7 +7,9 @@ println(lib.foo.getProperty('pwd'))
 
 println lib.foo.bar.toString()
 
-println lib.getMetaClass()
+println lib.toString()
+
+println lib.invokeMethod('pwd')
 
 node {
   lib.foo.bar.pwd()
