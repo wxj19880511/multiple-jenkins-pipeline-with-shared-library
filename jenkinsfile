@@ -5,7 +5,7 @@ def lib = library "qt@$BRANCH_NAME"
 println(lib)
 println(lib.foo.bar)
 
-def utils = new lib.foo.bar.utils.pwd()
+ lib.foo.bar.utils.pwd()
 
 // def utils = new Utilities(this)
 node {
