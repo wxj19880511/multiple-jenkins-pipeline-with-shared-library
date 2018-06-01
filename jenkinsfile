@@ -1,4 +1,4 @@
-@Library('qt@test') import foo.bar.Utilities
+library "qt@$BRANCH_NAME"
 
 
 def utils = new Utilities(this)
