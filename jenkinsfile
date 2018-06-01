@@ -6,7 +6,7 @@ println(lib)
 println(lib.foo.getProperty('pwd'))
 
 println lib.foo.bar.toString()
-// def utils = new Utilities(this)
+
 node {
-  utils.mvn 'clean package'
+  lib.foo.bar.pwd()
 }
