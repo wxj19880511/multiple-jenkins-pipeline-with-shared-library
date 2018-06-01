@@ -2,11 +2,7 @@
 def lib = library "qt@$BRANCH_NAME"
 // import foo.bar.Utilities
 
-println(lib)
-println(lib.foo.bar)
- lib.foo.bar.pwd()
-x.pwd()
- lib.foo.bar.utils.properties.each { println it.name }
+println lib.methods*.name.sort().unique()  
 
 // def utils = new Utilities(this)
 node {
