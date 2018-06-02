@@ -1,13 +1,13 @@
-library("qt@$BRANCH_NAME")
 
-import qt
+def lib = library "qt@$BRANCH_NAME"
+// import foo.bar.Utilities
+
+println(lib)
+println(lib.foo.getProperty('pwd'))
+println lib.foo.bar.invokeMethod('pwd')
+println lib.newInstance()
+println lib.invokeMethod('pwd')
 
 node {
-  println("-----------------")
-  x.dump()
-  qt.dump()
-  println("-----------------")
-  sh "env"
-  archiveArtifacts artifacts: '*'
-  mvn(this, 'clean package')
+  lib.foo.bar.pwd()
 }
