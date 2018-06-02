@@ -11,4 +11,11 @@ multibranchPipelineJob('example') {
             numToKeep(20)
         }
     }
+
+    factory {
+        workflowBranchProjectFactory {
+        // Relative location within the checkout of your Pipeline script.
+        scriptPath('jenkinsfile')
+        }
+    }
 }
